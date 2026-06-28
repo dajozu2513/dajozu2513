@@ -1,4 +1,4 @@
-# Hola, soy Joel 👋 | Hi, I'm Joel 👋
+# Hola, soy Joel  | Hi, I'm Joel 
 
 <div align="center">
 
@@ -38,22 +38,22 @@ Otros       →  z/OS · JCL · DNS · Redes
 
 **Un poco más sobre mí:**
 
-- 🎓 Ingeniería en Sistemas de Información @ UNA (2022 – 2026)
-- 🏥 Desarrollador Full-Stack @ Ministerio de Salud de Costa Rica
-- 🖥️ Participante IBM Z Xplore — formación en mainframe empresarial (z/OS, JCL)
-- 🛍️ Desarrollando **Black & White** — mi proyecto personal de emprendimiento
-- 🌐 Disponible para oportunidades presenciales, híbridas o remotas en tecnología
+-  Ingeniería en Sistemas de Información @ UNA (2022 – 2026)
+-  Desarrollador Full-Stack @ Ministerio de Salud de Costa Rica
+-  Participante IBM Z Xplore — formación en mainframe empresarial (z/OS, JCL)
+-  Desarrollando **Black & White** — mi proyecto personal de emprendimiento
+-  Disponible para oportunidades presenciales, híbridas o remotas en tecnología
 
 ---
 
 **Fuera del código:**
 
-- 🎬 Apasionado de las series, películas y la animación
-- 🎮 Gamer
-- 🎵 Amante de la música
-- 📖 Fan de los libros ilustrados
-- 🧠 Fascinado por la psicología, especialmente temas de sugestión e influencia
-- 🐱 Cat lover — los gatos son lo mejor que existe
+-  Apasionado de las series, películas y la animación
+-  Gamer
+-  Amante de la música
+-  Fan de los libros ilustrados
+-  Fascinado por la psicología, especialmente temas de sugestión e influencia
+-  Cat lover — los gatos son lo mejor que existe
 
 ---
 
@@ -67,7 +67,7 @@ Otros       →  z/OS · JCL · DNS · Redes
 
 ---
 
-📫 **dajozu2513@gmail.com** &nbsp;|&nbsp; [LinkedIn](https://linkedin.com/in/david-joel-soto-zuniga-0560141b5)
+ **dajozu2513@gmail.com** &nbsp;|&nbsp; [LinkedIn](https://linkedin.com/in/david-joel-soto-zuniga-0560141b5)
 
 </details>
 
@@ -103,22 +103,22 @@ Other      →  z/OS · JCL · DNS · Networking
 
 **A bit more about me:**
 
-- 🎓 Studying Information Systems Engineering @ UNA (2022 – 2026)
-- 🏥 Full-Stack Developer @ Ministry of Health of Costa Rica
-- 🖥️ IBM Z Xplore participant — learning enterprise mainframe (z/OS, JCL)
-- 🛍️ Building **Black & White** — my own personal store project
-- 🌐 Open to on-site, hybrid, or remote opportunities in tech
+-  Studying Information Systems Engineering @ UNA (2022 – 2026)
+-  Full-Stack Developer @ Ministry of Health of Costa Rica
+-  IBM Z Xplore participant — learning enterprise mainframe (z/OS, JCL)
+-  Building **Black & White** — my own personal store project
+-  Open to on-site, hybrid, or remote opportunities in tech
 
 ---
 
 **Outside of code:**
 
-- 🎬 Passionate about series, films, and animation
-- 🎮 Gamer
-- 🎵 Music lover
-- 📖 Into illustrated books
-- 🧠 Fascinated by psychology — especially suggestion and influence
-- 🐱 Cat lover — cats are simply the best
+-  Passionate about series, films, and animation
+-  Gamer
+-  Music lover
+-  Into illustrated books
+-  Fascinated by psychology — especially suggestion and influence
+-  Cat lover — cats are simply the best
 
 ---
 
@@ -132,6 +132,6 @@ Other      →  z/OS · JCL · DNS · Networking
 
 ---
 
-📫 **dajozu2513@gmail.com** &nbsp;|&nbsp; [LinkedIn](https://linkedin.com/in/david-joel-soto-zuniga-0560141b5)
+ **dajozu2513@gmail.com** &nbsp;|&nbsp; [LinkedIn](https://linkedin.com/in/david-joel-soto-zuniga-0560141b5)
 
 </details>
