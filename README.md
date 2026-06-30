@@ -2,6 +2,8 @@
 
 <div align="center">
 
+[![Portfolio Analyzer](https://img.shields.io/badge/Portfolio-Live%20Stats-2da44e?style=for-the-badge&logo=github)](https://dajozu2513.github.io/Proyecto-PortfolioAnalyzer/)
+
 <kbd>🇨🇷 ES</kbd> &nbsp;|&nbsp; <kbd>🇺🇸 EN</kbd>
 
 </div>
