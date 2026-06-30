@@ -3,6 +3,8 @@
 <div align="center">
 
 [![Portfolio Analyzer](https://img.shields.io/badge/Portfolio-Live%20Stats-2da44e?style=for-the-badge&logo=github)](https://dajozu2513.github.io/Proyecto-PortfolioAnalyzer/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-joel-soto-zu%C3%B1iga-0560141b5/)
+[![Email](https://img.shields.io/badge/Email-Contact-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dajozu2513@gmail.com)
 
 <kbd>🇨🇷 ES</kbd> &nbsp;|&nbsp; <kbd>🇺🇸 EN</kbd>
 
@@ -67,10 +69,6 @@ Otros       →  z/OS · JCL · DNS · Redes
 - Claude 101 — Anthropic
 - Digital Marketing Fundamentals (SCDM-F) — SCRUMstudy
 
----
-
- **dajozu2513@gmail.com** &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/david-joel-soto-zu%C3%B1iga-0560141b5/)
-
 </details>
 
 ---
@@ -131,9 +129,5 @@ Other      →  z/OS · JCL · DNS · Networking
 - Claude Code in Action — Anthropic
 - Claude 101 — Anthropic
 - Digital Marketing Fundamentals (SCDM-F) — SCRUMstudy
-
----
-
- **dajozu2513@gmail.com** &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/david-joel-soto-zu%C3%B1iga-0560141b5/)
 
 </details>
