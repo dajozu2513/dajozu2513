@@ -69,7 +69,7 @@ Otros       →  z/OS · JCL · DNS · Redes
 
 ---
 
- **dajozu2513@gmail.com** &nbsp;|&nbsp; [LinkedIn](https://linkedin.com/in/david-joel-soto-zuniga-0560141b5)
+ **dajozu2513@gmail.com** &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/david-joel-soto-zu%C3%B1iga-0560141b5/)
 
 </details>
 
@@ -134,6 +134,6 @@ Other      →  z/OS · JCL · DNS · Networking
 
 ---
 
- **dajozu2513@gmail.com** &nbsp;|&nbsp; [LinkedIn](https://linkedin.com/in/david-joel-soto-zuniga-0560141b5)
+ **dajozu2513@gmail.com** &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/david-joel-soto-zu%C3%B1iga-0560141b5/)
 
 </details>
