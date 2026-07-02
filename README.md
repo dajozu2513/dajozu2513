@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Portfolio Analyzer](https://img.shields.io/badge/Portfolio-Live%20Stats-2da44e?style=for-the-badge&logo=github)](https://dajozu2513.github.io/Proyecto-PortfolioAnalyzer/)
+[![Portfolio Analyzer](https://img.shields.io/badge/Github-Live%20Stats-2da44e?style=for-the-badge&logo=github)](https://dajozu2513.github.io/Proyecto-PortfolioAnalyzer/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-joel-soto-zu%C3%B1iga-0560141b5/)
 [![Email](https://img.shields.io/badge/Email-Contact-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dajozu2513@gmail.com)
 
