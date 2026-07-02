@@ -67,6 +67,7 @@ Otros       →  z/OS · JCL · DNS · Redes
 - Scrum with AI Certified (SAC) — SCRUMstudy
 - Claude Code in Action — Anthropic
 - Claude 101 — Anthropic
+- IBM Z Xplore Concepts - IBM
 - Digital Marketing Fundamentals (SCDM-F) — SCRUMstudy
 
 </details>
@@ -128,6 +129,7 @@ Other      →  z/OS · JCL · DNS · Networking
 - Scrum with AI Certified (SAC) — SCRUMstudy
 - Claude Code in Action — Anthropic
 - Claude 101 — Anthropic
+- IBM Z Xplore Concepts - IBM
 - Digital Marketing Fundamentals (SCDM-F) — SCRUMstudy
 
 </details>
