@@ -19,7 +19,7 @@
 
 <br>
 
-### Desarrollador Full-Stack · Enfoque Frontend
+### Desarrollador Full-Stack
 
 Estudiante de Ingeniería en Sistemas de Información en la **Universidad Nacional de Costa Rica**, con experiencia práctica desarrollando plataformas web en entornos empresariales y gubernamentales.
 
@@ -81,7 +81,7 @@ Otros       →  z/OS · JCL · DNS · Redes
 
 <br>
 
-### Full-Stack Developer · Frontend Focus
+### Full-Stack Developer
 
 Information Systems Engineering student at **Universidad Nacional de Costa Rica**, with hands-on experience building web platforms in enterprise and governmental environments.
 
