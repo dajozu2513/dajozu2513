@@ -23,7 +23,7 @@
 
 Information Systems Engineering student at **Universidad Nacional de Costa Rica**, with hands-on experience building web platforms in enterprise and governmental environments.
 
-Currently developing a **health innovation management platform** at the Ministry of Health of Costa Rica using React, C# .NET, and Oracle — working under Scrum methodology.
+Currently developing a **health innovation management platform** at the Ministry of Health of Costa Rica using React, C# .NET and Oracle, working under Scrum methodology.
 
 ---
 
