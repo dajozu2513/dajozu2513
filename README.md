@@ -1,4 +1,4 @@
-# Hola, soy Joel | Hi, I'm Joel
+# Hi, I'm Joel | Hola, soy Joel
 
 <div align="center">
 
