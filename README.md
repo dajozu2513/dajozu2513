@@ -1,82 +1,20 @@
-# Hola, soy Joel  | Hi, I'm Joel 
+# Hola, soy Joel | Hi, I'm Joel
 
 <div align="center">
 
 [![Portfolio Analyzer](https://img.shields.io/badge/Github-Live%20Stats-2da44e?style=for-the-badge&logo=github)](https://dajozu2513.github.io/Proyecto-PortfolioAnalyzer/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-joel-soto-zu%C3%B1iga-0560141b5/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-joel-soto-zuniga-0560141b5/)
 [![Email](https://img.shields.io/badge/Email-Contact-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dajozu2513@gmail.com)
 
-<kbd>🇨🇷 ES</kbd> &nbsp;|&nbsp; <kbd>🇺🇸 EN</kbd>
+<kbd>🇺🇸 EN</kbd> &nbsp;|&nbsp; <kbd>🇨🇷 ES</kbd>
 
 </div>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════ ESPAÑOL -->
-
-<details open>
-<summary><strong>🇨🇷 ES — Español</strong></summary>
-
-<br>
-
-### Desarrollador Full-Stack
-
-Estudiante de Ingeniería en Sistemas de Información en la **Universidad Nacional de Costa Rica**, con experiencia práctica desarrollando plataformas web en entornos empresariales y gubernamentales.
-
-Actualmente desarrollo una **plataforma de gestión de iniciativas de innovación en salud** en el Ministerio de Salud de Costa Rica con React, C# .NET y Oracle, trabajando bajo metodología Scrum.
-
----
-
-**Con qué trabajo:**
-
-```
-Frontend    →  React · Angular · JavaScript · TypeScript · HTML5 · CSS3
-Backend     →  Java · Python · C# · .NET · REST APIs
-Bases datos →  Oracle · MySQL · PostgreSQL · MongoDB
-QA          →  Pruebas funcionales · unitarias · por inspección · Heurio · Katalon
-Herramientas→  Git · GitHub · Scrum · CI/CD · Linux
-Otros       →  z/OS · JCL · DNS · Redes
-```
-
----
-
-**Un poco más sobre mí:**
-
--  Ingeniería en Sistemas de Información @ UNA (2022 – 2026)
--  Desarrollador Full-Stack @ Ministerio de Salud de Costa Rica
--  Participante IBM Z Xplore — formación en mainframe empresarial (z/OS, JCL)
--  Desarrollando **Black & White** — mi proyecto personal de emprendimiento
--  Disponible para oportunidades presenciales, híbridas o remotas en tecnología
-
----
-
-**Fuera del código:**
-
--  Apasionado de las series, películas y la animación
--  Gamer
--  Amante de la música
--  Fan de los libros ilustrados
--  Fascinado por la psicología, especialmente temas de sugestión e influencia
--  Cat lover — los gatos son lo mejor que existe
-
----
-
-**Certificaciones:**
-
-- Scrum Fundamentals Certified (SFC) — SCRUMstudy
-- Scrum with AI Certified (SAC) — SCRUMstudy
-- Claude Code in Action — Anthropic
-- Claude 101 — Anthropic
-- IBM Z Xplore Concepts - IBM
-- Digital Marketing Fundamentals (SCDM-F) — SCRUMstudy
-
-</details>
-
----
-
 <!-- ═══════════════════════════════════════════════════════ ENGLISH -->
 
-<details>
+<details open>
 <summary><strong>🇺🇸 EN — English</strong></summary>
 
 <br>
@@ -124,6 +62,68 @@ Other      →  z/OS · JCL · DNS · Networking
 ---
 
 **Certifications:**
+
+- Scrum Fundamentals Certified (SFC) — SCRUMstudy
+- Scrum with AI Certified (SAC) — SCRUMstudy
+- Claude Code in Action — Anthropic
+- Claude 101 — Anthropic
+- IBM Z Xplore Concepts - IBM
+- Digital Marketing Fundamentals (SCDM-F) — SCRUMstudy
+
+</details>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════ ESPAÑOL -->
+
+<details>
+<summary><strong>🇨🇷 ES — Español</strong></summary>
+
+<br>
+
+### Desarrollador Full-Stack
+
+Estudiante de Ingeniería en Sistemas de Información en la **Universidad Nacional de Costa Rica**, con experiencia práctica desarrollando plataformas web en entornos empresariales y gubernamentales.
+
+Actualmente desarrollo una **plataforma de gestión de iniciativas de innovación en salud** en el Ministerio de Salud de Costa Rica con React, C# .NET y Oracle, trabajando bajo metodología Scrum.
+
+---
+
+**Con qué trabajo:**
+
+```
+Frontend    →  React · Angular · JavaScript · TypeScript · HTML5 · CSS3
+Backend     →  Java · Python · C# · .NET · REST APIs
+Bases datos →  Oracle · MySQL · PostgreSQL · MongoDB
+QA          →  Pruebas funcionales · unitarias · por inspección · Heurio · Katalon
+Herramientas→  Git · GitHub · Scrum · CI/CD · Linux
+Otros       →  z/OS · JCL · DNS · Redes
+```
+
+---
+
+**Un poco más sobre mí:**
+
+-  Ingeniería en Sistemas de Información @ UNA (2022 – 2026)
+-  Desarrollador Full-Stack @ Ministerio de Salud de Costa Rica
+-  Participante IBM Z Xplore — formación en mainframe empresarial (z/OS, JCL)
+-  Desarrollando **Black & White** — mi proyecto personal de emprendimiento
+-  Disponible para oportunidades presenciales, híbridas o remotas en tecnología
+
+---
+
+**Fuera del código:**
+
+-  Apasionado de las series, películas y la animación
+-  Gamer
+-  Amante de la música
+-  Fan de los libros ilustrados
+-  Fascinado por la psicología, especialmente temas de sugestión e influencia
+-  Cat lover — los gatos son lo mejor que existe
+
+---
+
+**Certificaciones:**
 
 - Scrum Fundamentals Certified (SFC) — SCRUMstudy
 - Scrum with AI Certified (SAC) — SCRUMstudy
