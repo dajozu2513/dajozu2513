@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="An interactive 3D robot that follows your cursor, built with Spline."
+    />
+    <meta name="theme-color" content="#e0e0e0" />
+    <link rel="icon" href="data:," />
+    <!-- Linked here (not imported from JS) so the loader is styled from the first paint. -->
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Interactive 3D Robot</title>
+  </head>
+  <body>
+    <main class="stage">
+      <canvas
+        id="canvas3d"
+        aria-label="Interactive 3D robot that follows the cursor"
+      ></canvas>
+
+      <div id="loader" class="loader" role="status" aria-live="polite">
+        <div class="loader__spinner" aria-hidden="true"></div>
+        <p class="loader__text">Loading scene...</p>
+      </div>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
