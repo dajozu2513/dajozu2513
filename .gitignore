@@ -19,3 +19,8 @@ dist-ssr
 .agents/
 .claude/
 skills-lock.json
+
+# Original CVs in the project root include a phone number and must not be published.
+# The public versions go in public/cv/ (not matched by these root-only patterns).
+/David_Joel_Soto_Zuniga_CV_EN.pdf
+/David_Joel_Soto_Zuniga_CV_ES.pdf

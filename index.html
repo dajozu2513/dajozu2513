@@ -8,26 +8,208 @@
     />
     <meta
       name="description"
-      content="An interactive 3D robot that follows your cursor, built with Spline."
+      content="Full-Stack Developer · Information Systems Engineering. Automating business processes through software, data, and AI."
     />
     <meta name="theme-color" content="#e0e0e0" />
+    <link rel="canonical" href="https://dajozu2513.github.io/dajozu2513/" />
+    <!-- Link previews. No og:image: the spec has no photo or avatar. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dajozu2513.github.io/dajozu2513/" />
+    <meta property="og:title" content="David Joel Soto Zuniga · Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Full-Stack Developer · Information Systems Engineering. Automating business processes through software, data, and AI."
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="es_CR" />
+    <meta name="twitter:card" content="summary" />
     <link rel="icon" href="data:," />
-    <!-- Linked here (not imported from JS) so the loader is styled from the first paint. -->
+    <script>
+      // Returning visitors who chose Spanish: hide translatable text until src/i18n.js applies it,
+      // so the English markup never flashes. The timeout reveals the page even if scripts fail.
+      (function () {
+        try {
+          if (localStorage.getItem('portfolio-lang') === 'es') {
+            var root = document.documentElement;
+            root.lang = 'es';
+            root.classList.add('i18n-pending');
+            setTimeout(function () {
+              root.classList.remove('i18n-pending');
+            }, 3000);
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <!-- Linked here (not imported from JS) so the page is styled from the first paint. -->
     <link rel="stylesheet" href="/src/style.css" />
-    <title>Interactive 3D Robot</title>
+    <title>David Joel Soto Zuniga · Full-Stack Developer</title>
   </head>
   <body>
-    <main class="stage">
-      <canvas
-        id="canvas3d"
-        aria-label="Interactive 3D robot that follows the cursor"
-      ></canvas>
+    <a class="skip-link" href="#main" data-i18n="ui.skipLink">Skip to content</a>
 
-      <div id="loader" class="loader" role="status" aria-live="polite">
-        <div class="loader__spinner" aria-hidden="true"></div>
-        <p class="loader__text">Loading scene...</p>
+    <header class="site-header" id="site-header">
+      <div class="site-header__inner container">
+        <a class="brand" href="#top">Joel Soto</a>
+
+        <nav class="site-nav" id="site-nav" aria-label="Sections" data-i18n-attr="aria-label:ui.navLabel">
+          <ul class="site-nav__list">
+            <li><a href="#about" data-i18n="sections.about">About</a></li>
+            <li><a href="#experience" data-i18n="sections.experience">Experience</a></li>
+            <li><a href="#projects" data-i18n="sections.projects">Projects</a></li>
+            <li><a href="#skills" data-i18n="sections.skills">Skills</a></li>
+            <li><a href="#education" data-i18n="sections.education">Education</a></li>
+            <li><a href="#certifications" data-i18n="sections.certifications">Certifications</a></li>
+            <li><a href="#beyond" data-i18n="sections.beyond">Beyond code</a></li>
+            <li><a href="#contact" data-i18n="sections.contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div
+          class="lang-toggle"
+          role="group"
+          aria-label="Language"
+          data-i18n-attr="aria-label:ui.languageLabel"
+        >
+          <button type="button" class="lang-toggle__btn" data-lang="en" lang="en" aria-label="English" aria-pressed="true">EN</button>
+          <span class="lang-toggle__sep" aria-hidden="true">/</span>
+          <button type="button" class="lang-toggle__btn" data-lang="es" lang="es" aria-label="Español" aria-pressed="false">ES</button>
+        </div>
+
+        <!-- Below 1100px the section links open from this button (src/menu.js). -->
+        <button
+          type="button"
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          data-i18n="ui.menuOpen"
+        >Menu</button>
       </div>
+    </header>
+
+    <main id="main">
+      <section
+        class="hero"
+        id="top"
+        aria-label="Introduction"
+        data-i18n-attr="aria-label:ui.heroLabel"
+      >
+        <div class="hero__stage">
+          <canvas
+            id="canvas3d"
+            role="img"
+            aria-label="Interactive 3D robot that follows the cursor"
+            data-i18n-attr="aria-label:ui.canvasLabel"
+          ></canvas>
+
+          <div id="loader" class="loader" role="status" aria-live="polite">
+            <div class="loader__spinner" aria-hidden="true"></div>
+            <p class="loader__text" data-i18n="robot.loading">Loading scene...</p>
+          </div>
+        </div>
+
+        <div class="hero__content container">
+          <div class="hero__text">
+            <h1 class="hero__name" data-i18n="hero.name">David Joel Soto Zuniga</h1>
+            <p class="hero__title" data-i18n="hero.title">Full-Stack Developer · Information Systems Engineering</p>
+            <p class="hero__tagline" data-i18n="hero.tagline">Automating business processes through software, data, and AI.</p>
+          </div>
+
+          <a
+            class="hero__cue"
+            href="#about"
+            aria-label="Scroll to About"
+            data-i18n-attr="aria-label:hero.scrollCue"
+          >
+            <span class="hero__cue-line" aria-hidden="true"></span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <header class="section__head">
+            <p class="section__index">01</p>
+            <h2 class="section__title" id="about-title" data-i18n="sections.about">About</h2>
+          </header>
+          <div class="section__body" data-slot="about"></div>
+        </div>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="container">
+          <header class="section__head">
+            <p class="section__index">02</p>
+            <h2 class="section__title" id="experience-title" data-i18n="sections.experience">Experience</h2>
+          </header>
+          <div class="section__body" data-slot="experience"></div>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <header class="section__head">
+            <p class="section__index">03</p>
+            <h2 class="section__title" id="projects-title" data-i18n="sections.projects">Projects</h2>
+          </header>
+          <div class="section__body" data-slot="projects"></div>
+        </div>
+      </section>
+
+      <section class="section" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <header class="section__head">
+            <p class="section__index">04</p>
+            <h2 class="section__title" id="skills-title" data-i18n="sections.skills">Skills</h2>
+          </header>
+          <div class="section__body" data-slot="skills"></div>
+        </div>
+      </section>
+
+      <section class="section" id="education" aria-labelledby="education-title">
+        <div class="container">
+          <header class="section__head">
+            <p class="section__index">05</p>
+            <h2 class="section__title" id="education-title" data-i18n="sections.education">Education</h2>
+          </header>
+          <div class="section__body" data-slot="education"></div>
+        </div>
+      </section>
+
+      <section class="section" id="certifications" aria-labelledby="certifications-title">
+        <div class="container">
+          <header class="section__head">
+            <p class="section__index">06</p>
+            <h2 class="section__title" id="certifications-title" data-i18n="sections.certifications">Certifications</h2>
+          </header>
+          <div class="section__body" data-slot="certifications"></div>
+        </div>
+      </section>
+
+      <section class="section" id="beyond" aria-labelledby="beyond-title">
+        <div class="container">
+          <header class="section__head">
+            <p class="section__index">07</p>
+            <h2 class="section__title" id="beyond-title" data-i18n="sections.beyond">Beyond code</h2>
+          </header>
+          <div class="section__body" data-slot="beyond"></div>
+        </div>
+      </section>
+
+      <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <header class="section__head">
+            <p class="section__index">08</p>
+            <h2 class="section__title" id="contact-title" data-i18n="sections.contact">Contact</h2>
+          </header>
+          <div class="section__body" data-slot="contact"></div>
+        </div>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="container" data-slot="footer"></div>
+    </footer>
 
     <script type="module" src="/src/main.js"></script>
   </body>

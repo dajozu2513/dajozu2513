@@ -1,58 +1,30 @@
-import { Application } from '@splinetool/runtime';
+import { initI18n, onLanguageChange } from './i18n.js';
+import { renderSections } from './sections.js';
+import { initMenu, initActiveSection } from './menu.js';
 
-// Scene served from public/. BASE_URL keeps the path correct when the site is deployed under a subpath.
-const SCENE_URL = `${import.meta.env.BASE_URL}scene.splinecode`;
+// Apply the stored language first, before the large 3D runtime is fetched and parsed.
+initI18n();
+renderSections();
+onLanguageChange(renderSections);
 
-// Scene objects hidden after loading. 'logo' is the group of letter shapes behind the robot.
-const HIDDEN_OBJECTS = ['logo'];
+initMenu();
+initActiveSection();
 
-const canvas = document.getElementById('canvas3d');
-const loader = document.getElementById('loader');
-const loaderText = loader.querySelector('.loader__text');
+const header = document.getElementById('site-header');
+const hero = document.getElementById('top');
 
-function hideLoader() {
-  loader.classList.add('is-hidden');
+// Header is transparent over the robot and turns solid once the page scrolls.
+function updateHeader() {
+  header.classList.toggle('is-scrolled', window.scrollY > 8);
 }
+window.addEventListener('scroll', updateHeader, { passive: true });
+updateHeader();
 
-function showError(message) {
-  loader.classList.add('is-error');
-  loader.setAttribute('role', 'alert');
-  loaderText.textContent = message;
-}
-
-function hideSceneObjects(app) {
-  for (const name of HIDDEN_OBJECTS) {
-    const object = app.findObjectByName(name);
-    if (object) {
-      object.visible = false;
-    } else {
-      console.warn(`Scene object "${name}" not found; nothing to hide.`);
-    }
-  }
-}
-
-async function init() {
-  let app;
-  try {
-    // 'sandbox' is the runtime's default; set explicitly because the scene is a remix
-    // of another author's file and its HTML content must not run in this page.
-    app = new Application(canvas, { htmlContentMode: 'sandbox' });
-  } catch (error) {
-    console.error('Could not start the 3D renderer.', error);
-    showError('Your browser could not start the 3D viewer.');
-    return;
-  }
-
-  try {
-    await app.load(SCENE_URL);
-  } catch (error) {
-    console.error(`Could not load scene from ${SCENE_URL}`, error);
-    showError('The 3D scene could not be loaded. Please check your connection and refresh the page.');
-    return;
-  }
-
-  hideSceneObjects(app);
-  hideLoader();
-}
-
-init();
+// Loaded on demand so the Spline runtime does not delay text, layout or language.
+import('./robot.js').then(({ initRobot }) =>
+  initRobot({
+    canvas: document.getElementById('canvas3d'),
+    loader: document.getElementById('loader'),
+    visibilityTarget: hero,
+  }),
+);
