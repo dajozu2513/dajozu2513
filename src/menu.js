@@ -2,7 +2,7 @@
 import { t } from './i18n.js';
 
 // Must match the breakpoint in style.css where the inline nav appears.
-const DESKTOP_NAV = window.matchMedia('(min-width: 1100px)');
+const DESKTOP_NAV = window.matchMedia('(min-width: 1280px)');
 
 export function initMenu() {
   const header = document.getElementById('site-header');

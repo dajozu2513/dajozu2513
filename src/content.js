@@ -15,6 +15,7 @@ export const content = {
         'Full-Stack Developer · Information Systems Engineering. Automating business processes through software, data, and AI.',
     },
     ui: {
+      brandLabel: 'Professional portfolio',
       skipLink: 'Skip to content',
       navLabel: 'Sections',
       languageLabel: 'Language',
@@ -25,9 +26,8 @@ export const content = {
       repoLink: 'Repository',
       demoLink: 'Live demo',
       newTab: 'opens in a new tab',
-      featuredLabel: 'Main project',
       credentialLabel: 'Credential ID',
-      backToTop: 'Back to top',
+      verifyLink: 'Verify credential',
       menuOpen: 'Menu',
       menuClose: 'Close',
     },
@@ -108,12 +108,14 @@ export const content = {
         skills: ['DNS Management', 'Process Automation', 'DevOps', 'NetOps', 'Technical Support'],
       },
     ],
-    // Order and links from the spec's Projects table. Descriptions are the English
-    // project texts from the spec (GitHub READMEs). Only Black & White has a live demo.
+    // Links from the spec's Projects table. Order as the table, except Black & White moved to
+    // second place at Joel's request. Descriptions are the English project texts from the spec
+    // (GitHub READMEs). Only Black & White has a live demo. `highlight` marks the two projects
+    // Joel wants emphasised equally (VialReport and Black & White).
     projects: [
       {
         name: 'VialReport - Road Incident Reporting',
-        featured: true,
+        highlight: true,
         // REVIEW: spec gives "Curso Plataformas Móviles, UNA 2026".
         context: 'Mobile Platforms course, UNA 2026',
         description:
@@ -127,22 +129,28 @@ export const content = {
         repo: 'https://github.com/dajozu2513/VialReport-Road-Incident-Reporting',
       },
       {
+        name: 'Black & White by Joel Soto',
+        highlight: true,
+        // REVIEW: spec gives "Emprendimiento personal".
+        context: 'Personal business',
+        description:
+          'Static bilingual showcase site for a brand of exclusive, handmade jewelry and design accessories. Vanilla HTML, CSS and JavaScript, no frameworks or build tools.',
+        highlights: [
+          'Three.js 3D steel chain running behind the home page, with photo fallback when WebGL is unavailable.',
+          'ES/EN toggle with a custom i18n dictionary, language persisted across pages.',
+          'Sections: intro splash, pillars, 9-product collection in a 3x3 grid with detail modal and WhatsApp CTA, three bilingual editorial articles with cross-fade page transitions.',
+        ],
+        stack: ['HTML', 'CSS', 'JavaScript', 'Three.js'],
+        repo: 'https://github.com/dajozu2513/Black-White-Personal-Store',
+        demo: 'https://blackandwhite-js.onrender.com',
+      },
+      {
         name: 'CatCradle - Generative Art',
         context: 'Personal',
         description:
           'Real-time generative art web app driven by hand tracking. MediaPipe detects 21 landmarks per hand; p5.js renders at 60 fps. No backend or build step.',
         stack: ['JavaScript', 'MediaPipe', 'p5.js'],
         repo: 'https://github.com/dajozu2513/CatCradle-Generative-Art',
-      },
-      {
-        name: 'Black & White by Joel Soto',
-        // REVIEW: spec gives "Emprendimiento personal".
-        context: 'Personal business',
-        description:
-          'Static bilingual showcase site for a brand of exclusive, handmade jewelry and design accessories. Vanilla HTML, CSS and JavaScript, no frameworks or build tools.',
-        stack: ['HTML', 'CSS', 'JavaScript', 'Three.js'],
-        repo: 'https://github.com/dajozu2513/Black-White-Personal-Store',
-        demo: 'https://blackandwhite-js.onrender.com',
       },
       {
         name: 'Medical Appointment System',
@@ -235,10 +243,15 @@ export const content = {
         degrees: [{ name: 'Technical Degree, Software Development', period: 'Jan 2019 – Dec 2021' }],
       },
     ],
-    // No verification URLs in the spec: issuer, date and credential ID only.
-    // IBM Z Xplore has no credential ID in the spec, so none is shown.
+    // Issuer, date and credential ID from the spec. IBM Z Xplore has no credential ID;
+    // its Credly verification link was provided by Joel.
     certifications: [
-      { name: 'IBM Z Xplore - Concepts', issuer: 'IBM', date: 'Jun 2026' },
+      {
+        name: 'IBM Z Xplore - Concepts',
+        issuer: 'IBM',
+        date: 'Jun 2026',
+        url: 'https://www.credly.com/badges/6db570cd-0be0-4389-9ab3-b21bf3e44c60/linked_in_profile',
+      },
       { name: 'Claude Code in Action', issuer: 'Anthropic', date: 'Apr 2026', id: 'pwhbtgzpkt4k' },
       { name: 'Claude 101', issuer: 'Anthropic', date: 'Apr 2026', id: 'imwfy7mvmo8x' },
       { name: 'Scrum Fundamentals Certified (SFC)', issuer: 'SCRUMstudy', date: 'Mar 2026', id: '1151993' },
@@ -291,15 +304,13 @@ export const content = {
       cv: {
         label: 'Download CV (PDF, English)',
         // Set to 'cv/David_Joel_Soto_Zuniga_CV_EN.pdf' once a version without the phone number
-        // is in public/cv/. Until then the page shows the pending marker below.
+        // is in public/cv/. While null, no download button is shown.
         file: null,
-        pending: '[Pending: English CV PDF without phone number]',
       },
     },
     footer: {
       name: 'David Joel Soto Zuniga',
-      creditPrefix: '3D illustration created with',
-      creditLink: 'Spline',
+      copyright: '© 2026 • All rights reserved',
     },
     robot: {
       loading: 'Loading scene...',
@@ -315,6 +326,7 @@ export const content = {
         'Desarrollador Full-Stack · Ingeniería en Sistemas de Información. Automatizo procesos de negocio con software, datos e IA.',
     },
     ui: {
+      brandLabel: 'Portafolio profesional',
       skipLink: 'Saltar al contenido',
       navLabel: 'Secciones',
       languageLabel: 'Idioma',
@@ -325,9 +337,8 @@ export const content = {
       repoLink: 'Repositorio',
       demoLink: 'Demo en vivo',
       newTab: 'se abre en una pestaña nueva',
-      featuredLabel: 'Proyecto principal',
       credentialLabel: 'ID de credencial',
-      backToTop: 'Volver arriba',
+      verifyLink: 'Verificar credencial',
       menuOpen: 'Menú',
       menuClose: 'Cerrar',
     },
@@ -411,7 +422,7 @@ export const content = {
     projects: [
       {
         name: 'VialReport - Road Incident Reporting',
-        featured: true,
+        highlight: true,
         context: 'Curso Plataformas Móviles, UNA 2026',
         description:
           'App Android para que la ciudadanía reporte incidentes viales (baches, semáforos dañados, inundaciones), con un backend REST y validación de fotos con IA. La ciudadanía reporta los problemas, los administradores gestionan el estado de los reportes y las cuadrillas de trabajo se encargan de resolverlos.',
@@ -424,21 +435,27 @@ export const content = {
         repo: 'https://github.com/dajozu2513/VialReport-Road-Incident-Reporting',
       },
       {
+        name: 'Black & White by Joel Soto',
+        highlight: true,
+        context: 'Emprendimiento personal',
+        description:
+          'Sitio estático y bilingüe de exhibición para una marca de joyería exclusiva hecha a mano y accesorios de diseño. HTML, CSS y JavaScript puros, sin frameworks ni herramientas de compilación.',
+        highlights: [
+          'Cadena de acero 3D con Three.js detrás de la página de inicio, con una foto de respaldo cuando WebGL no está disponible.',
+          'Selector ES/EN con un diccionario i18n propio; el idioma se mantiene entre páginas.',
+          'Secciones: pantalla de entrada, pilares, colección de 9 productos en una cuadrícula de 3x3 con ventana de detalle y botón de WhatsApp, y tres artículos editoriales bilingües con transiciones de página en fundido.',
+        ],
+        stack: ['HTML', 'CSS', 'JavaScript', 'Three.js'],
+        repo: 'https://github.com/dajozu2513/Black-White-Personal-Store',
+        demo: 'https://blackandwhite-js.onrender.com',
+      },
+      {
         name: 'CatCradle - Generative Art',
         context: 'Personal',
         description:
           'App web de arte generativo en tiempo real controlada por seguimiento de manos. MediaPipe detecta 21 puntos de referencia por mano; p5.js renderiza a 60 fps. Sin backend ni paso de compilación.',
         stack: ['JavaScript', 'MediaPipe', 'p5.js'],
         repo: 'https://github.com/dajozu2513/CatCradle-Generative-Art',
-      },
-      {
-        name: 'Black & White by Joel Soto',
-        context: 'Emprendimiento personal',
-        description:
-          'Sitio estático y bilingüe de exhibición para una marca de joyería exclusiva hecha a mano y accesorios de diseño. HTML, CSS y JavaScript puros, sin frameworks ni herramientas de compilación.',
-        stack: ['HTML', 'CSS', 'JavaScript', 'Three.js'],
-        repo: 'https://github.com/dajozu2513/Black-White-Personal-Store',
-        demo: 'https://blackandwhite-js.onrender.com',
       },
       {
         name: 'Medical Appointment System',
@@ -527,7 +544,12 @@ export const content = {
       },
     ],
     certifications: [
-      { name: 'IBM Z Xplore - Concepts', issuer: 'IBM', date: 'jun 2026' },
+      {
+        name: 'IBM Z Xplore - Concepts',
+        issuer: 'IBM',
+        date: 'jun 2026',
+        url: 'https://www.credly.com/badges/6db570cd-0be0-4389-9ab3-b21bf3e44c60/linked_in_profile',
+      },
       { name: 'Claude Code in Action', issuer: 'Anthropic', date: 'abr 2026', id: 'pwhbtgzpkt4k' },
       { name: 'Claude 101', issuer: 'Anthropic', date: 'abr 2026', id: 'imwfy7mvmo8x' },
       { name: 'Scrum Fundamentals Certified (SFC)', issuer: 'SCRUMstudy', date: 'mar 2026', id: '1151993' },
@@ -579,15 +601,13 @@ export const content = {
       cv: {
         label: 'Descargar CV (PDF, español)',
         // Set to 'cv/David_Joel_Soto_Zuniga_CV_ES.pdf' once a version without the phone number
-        // is in public/cv/. Until then the page shows the pending marker below.
+        // is in public/cv/. While null, no download button is shown.
         file: null,
-        pending: '[Pendiente: CV en PDF en español sin número de teléfono]',
       },
     },
     footer: {
       name: 'David Joel Soto Zuniga',
-      creditPrefix: 'Ilustración 3D creada con',
-      creditLink: 'Spline',
+      copyright: '© 2026 • Todos los derechos reservados',
     },
     robot: {
       loading: 'Cargando escena...',

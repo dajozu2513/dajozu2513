@@ -91,10 +91,10 @@ function renderProjects(slot) {
       links.push(externalLink(t('ui.demoLink'), project.name, project.demo, 'project__link'));
     }
 
-    return el('li', { class: project.featured ? 'project project--featured' : 'project' }, [
+    // VialReport and Black & White are emphasised equally, with no label.
+    return el('li', { class: project.highlight ? 'project project--highlight' : 'project' }, [
       el('div', { class: 'project__head' }, [
         el('span', { class: 'project__index', text: String(index + 1).padStart(2, '0') }),
-        project.featured ? el('span', { class: 'project__badge', text: t('ui.featuredLabel') }) : null,
       ]),
       el('div', { class: 'project__main' }, [
         el('h3', { class: 'project__name', text: project.name }),
@@ -186,6 +186,7 @@ function renderCertifications(slot) {
             el('span', { text: cert.id }),
           ])
         : null,
+      cert.url ? externalLink(t('ui.verifyLink'), cert.name, cert.url, 'cert__link') : null,
     ]),
   );
 
@@ -237,22 +238,22 @@ function renderContact(slot) {
   );
 
   // The CV follows the active language. BASE_URL keeps the path right under /dajozu2513/.
+  // No button until a PDF without the phone number is configured in content.js.
   const { cv } = contact;
   const cvAction = cv.file
-    ? el('a', {
-        class: 'button',
-        href: `${import.meta.env.BASE_URL}${cv.file}`,
-        download: '',
-        type: 'application/pdf',
-        text: cv.label,
-      })
-    : el('p', { class: 'pending', text: cv.pending });
+    ? el('div', { class: 'contact__cv' }, [
+        el('a', {
+          class: 'button',
+          href: `${import.meta.env.BASE_URL}${cv.file}`,
+          download: '',
+          type: 'application/pdf',
+          text: cv.label,
+        }),
+      ])
+    : null;
 
   slot.replaceChildren(
-    el('div', { class: 'contact' }, [
-      el('ul', { class: 'contact__list' }, rows),
-      el('div', { class: 'contact__cv' }, cvAction),
-    ]),
+    el('div', { class: 'contact' }, [el('ul', { class: 'contact__list' }, rows), cvAction]),
   );
 }
 
@@ -260,14 +261,14 @@ function renderFooter(slot) {
   const footer = data('footer');
   if (!footer) return slot.replaceChildren(missing('footer'));
 
+  // Same two-line brand as the header ("Professional portfolio" over the name).
   slot.replaceChildren(
     el('div', { class: 'footer' }, [
-      el('p', { class: 'footer__name', text: footer.name }),
-      el('p', { class: 'footer__credit' }, [
-        `${footer.creditPrefix} `,
-        externalLink(footer.creditLink, 'spline.design', 'https://spline.design', 'footer__link'),
+      el('p', { class: 'brand footer__brand' }, [
+        el('span', { class: 'brand__label', text: t('ui.brandLabel') }),
+        el('span', { class: 'brand__name', text: footer.name }),
       ]),
-      el('a', { class: 'footer__top', href: '#top', text: t('ui.backToTop') }),
+      el('p', { class: 'footer__copyright', text: footer.copyright }),
     ]),
   );
 }

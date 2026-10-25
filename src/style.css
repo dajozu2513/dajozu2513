@@ -8,7 +8,8 @@
   --color-muted: #5e5e5e;
   --color-line: #e3e3e3;
   --color-surface: #f5f5f5;
-  --color-scene: #e0e0e0;
+  /* Exactly the background Spline renders (226,226,226), so fades over the scene leave no edge. */
+  --color-scene: #e2e2e2;
 
   --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-mono: ui-monospace, "SFMono-Regular", "Cascadia Mono", Menlo, Consolas, "Liberation Mono", monospace;
@@ -154,16 +155,48 @@ a {
   height: 100%;
 }
 
+/* Two lines: "Professional portfolio" over the name. Shrinks (and the name wraps)
+   before the language and menu buttons do. */
 .brand {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
   font-family: var(--font-mono);
-  font-size: 0.875rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  line-height: 1.3;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
-/* Section links: inline from 1100px, in a panel opened by .menu-toggle below that. */
+/* Compact on phones (fits the 64px header next to EN/ES and Menu), larger from 600px. */
+.brand__label {
+  color: var(--color-muted);
+  font-size: 0.625rem;
+  letter-spacing: 0.1em;
+}
+
+.brand__name {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+@media (min-width: 600px) {
+  .brand__label {
+    font-size: 0.75rem;
+  }
+
+  .brand__name {
+    font-size: 1rem;
+    letter-spacing: 0.04em;
+  }
+}
+
+.lang-toggle,
+.menu-toggle {
+  flex: none;
+}
+
+/* Section links: inline from 1280px, in a panel opened by .menu-toggle below that. */
 .site-nav {
   display: none;
   margin-left: auto;
@@ -171,7 +204,7 @@ a {
 
 .site-nav__list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   padding: 0;
   list-style: none;
 }
@@ -236,7 +269,7 @@ a {
   cursor: pointer;
 }
 
-@media (max-width: 1099px) {
+@media (max-width: 1279px) {
   .site-header.menu-open {
     background: var(--color-bg);
     border-bottom-color: var(--color-line);
@@ -269,10 +302,29 @@ a {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1280px) {
+  /* Spacing sized so the Spanish labels (the longest) fit on one line at exactly 1280px. */
+  .site-header__inner {
+    gap: 24px;
+  }
+
+  .brand {
+    flex: none;
+  }
+
   .site-nav {
     display: block;
   }
+
+  /* The header content is capped at the page width (1120px), so it never gets wider than at
+     1280px. 11px labels keep the Spanish nav and the larger brand on one line. */
+  .site-nav a {
+    font-size: 0.6875rem;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1280px) {
 
   .site-nav a[aria-current] {
     text-decoration: underline;
@@ -336,37 +388,47 @@ a {
   pointer-events: auto;
 }
 
-/* Readability fade tied to the text block, not the viewport: solid scene colour behind the
-   text, fading out over the 120px above it. Spline reframes the robot with the window size,
-   so a fixed-height fade could leave the robot's dark body behind the name. */
+/* Readability fade tied to the text block's height, not the viewport: solid scene colour behind
+   the text, fading out over the 120px above it. Spline reframes the robot with the window size,
+   so a fixed-height fade could leave the robot's dark body behind the name. The sides reach the
+   viewport edges even when the centred container is narrower than the screen. */
 .hero__content::before {
   content: "";
   position: absolute;
-  inset: -120px 0 0;
+  inset: -120px calc(50% - 50vw) 0;
   z-index: -1;
   background: var(--color-scene);
   -webkit-mask-image: linear-gradient(to top, #000 calc(100% - 120px), transparent);
   mask-image: linear-gradient(to top, #000 calc(100% - 120px), transparent);
 }
 
-@media (min-width: 900px) {
-  /* Beside the robot: limit the width and also fade to the right, so the robot stays clear. */
-  .hero__content::before {
-    right: auto;
-    width: min(100%, 40rem);
-    -webkit-mask-image:
-      linear-gradient(to top, #000 calc(100% - 120px), transparent),
-      linear-gradient(to right, #000 calc(100% - 160px), transparent);
-    -webkit-mask-composite: source-in;
-    mask-image:
-      linear-gradient(to top, #000 calc(100% - 120px), transparent),
-      linear-gradient(to right, #000 calc(100% - 160px), transparent);
-    mask-composite: intersect;
-  }
-}
-
 .hero__text {
   max-width: 34rem;
+}
+
+/* Desktop: name bottom-left, role and tagline bottom-right, the robot between them. */
+@media (min-width: 900px) {
+  .hero__text {
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 48px;
+    max-width: none;
+  }
+
+  .hero__meta {
+    max-width: 22rem;
+    text-align: right;
+  }
+
+  .hero__meta > * {
+    margin-left: auto;
+  }
+
+  .hero__title {
+    margin-top: 0;
+  }
 }
 
 .hero__name {
@@ -398,7 +460,9 @@ a {
 }
 
 /* Staggered entrance; disabled for reduced motion below. */
-.hero__text > * {
+.hero__name,
+.hero__title,
+.hero__tagline {
   animation: rise 0.8s var(--ease) both;
 }
 
@@ -455,6 +519,11 @@ a {
 @media (min-width: 900px) {
   .hero__title {
     font-size: 0.8125rem;
+  }
+
+  /* Would sit over the robot's legs between the two text groups; the nav covers it here. */
+  .hero__cue {
+    display: none;
   }
 }
 
@@ -745,12 +814,6 @@ a {
   letter-spacing: 0.06em;
 }
 
-.project__badge {
-  padding: 2px 8px;
-  border: 1px solid currentColor;
-  text-transform: uppercase;
-}
-
 .project__main {
   display: grid;
   gap: 10px;
@@ -806,75 +869,21 @@ a {
   margin-left: 6px;
 }
 
-/* Main project: full width and inverted. */
-.project--featured {
-  grid-column: 1 / -1;
+/* Highlighted projects (VialReport and Black & White, equally): black border with a heavier top
+   rule and a larger name, no label. They are the first two items, so in the two-column grid
+   they share the first row; the other four follow in two rows of two. */
+.project--highlight {
   border-color: var(--color-fg);
-  background: var(--color-fg);
-  color: var(--color-bg);
+  box-shadow: inset 0 3px 0 var(--color-fg);
 }
 
-.project--featured .project__head,
-.project--featured .project__context {
-  color: #a3a3a3;
-}
-
-.project--featured .project__name {
-  font-size: clamp(1.5rem, 3vw, 2rem);
-}
-
-.project--featured .project__highlights li::before {
-  background: var(--color-bg);
-}
-
-.project--featured .tag {
-  border-color: #3a3a3a;
-  color: #c4c4c4;
-}
-
-.project--featured :focus-visible {
-  outline-color: var(--color-bg);
+.project--highlight .project__name {
+  font-size: clamp(1.375rem, 2.6vw, 1.75rem);
 }
 
 @media (min-width: 700px) {
   .projects {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (min-width: 1000px) {
-  .projects {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  /* Text on the left, highlights and stack on the right. */
-  .project--featured {
-    display: grid;
-    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
-    grid-template-areas:
-      "head aside"
-      "main aside"
-      "links aside";
-    grid-template-rows: auto auto 1fr;
-    column-gap: 64px;
-    row-gap: 20px;
-  }
-
-  .project--featured .project__head {
-    grid-area: head;
-  }
-
-  .project--featured .project__main {
-    grid-area: main;
-  }
-
-  .project--featured .project__aside {
-    grid-area: aside;
-  }
-
-  .project--featured .project__links {
-    grid-area: links;
-    align-self: end;
   }
 }
 
@@ -1015,6 +1024,27 @@ a {
 .cert__id-label {
   margin-right: 8px;
   color: var(--color-muted);
+}
+
+/* Verification link (only certifications with a public URL). Bottom-aligned like the ID. */
+.cert__link {
+  align-self: flex-start;
+  margin-top: auto;
+  padding-top: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+
+.cert__id + .cert__link {
+  margin-top: 0;
+}
+
+.cert__link:hover {
+  text-decoration-thickness: 2px;
 }
 
 @media (min-width: 700px) {
@@ -1182,21 +1212,14 @@ a {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   gap: 12px 32px;
 }
 
-.footer__name {
+/* Reuses the header's .brand styles; the name in full colour, the label stays muted. */
+.footer__brand {
   color: var(--color-fg);
-}
-
-.footer__link,
-.footer__top {
-  color: var(--color-fg);
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
 }
 
 @media (max-width: 599px) {
@@ -1225,7 +1248,9 @@ a {
     animation-duration: 2.4s;
   }
 
-  .hero__text > *,
+  .hero__name,
+  .hero__title,
+  .hero__tagline,
   .hero__cue-line::after {
     animation: none;
   }
