@@ -72,7 +72,7 @@ Methods     →  Scrum (certified Scrum Master) · Project management
 
 **Education:**
 
-- Bachelor's Degree, Information Systems Engineering — Universidad Nacional de Costa Rica (UNA) · Feb 2022 – May 2027, in progress
+- Bachelor's Degree, Information Systems Engineering — Universidad Nacional de Costa Rica (UNA) · Feb 2022 – May 2028, in progress
 - Associate's Degree, Application Programming — UNA · Feb 2022 – May 2026
 - Technical Degree, Software Development — Colegio Técnico Profesional Mercedes Norte · Jan 2019 – Dec 2021
 
@@ -128,11 +128,11 @@ Heredia, Costa Rica · Disponible para trabajar: presencial, híbrido o remoto �
 
 **Experiencia:**
 
-- **Agente de cobros** — Bill Gosling Outsourcing · sep 2026 – oct 2026<br>
+- **Agente de cobros** — Bill Gosling Outsourcing · Sep 2026 – Oct 2026<br>
   Me comuniqué a diario en inglés con clientes de una empresa de préstamos de Estados Unidos, negociando acuerdos de pago.
-- **Desarrollador Full-Stack y Scrum Master** — Ministerio de Salud de Costa Rica · feb 2025 – jun 2026<br>
+- **Desarrollador Full-Stack y Scrum Master** — Ministerio de Salud de Costa Rica · Feb 2025 – Jun 2026<br>
   Co-desarrollé una aplicación web para todo el Ministerio (React, C# .NET, Oracle) y lideré como Scrum Master un equipo multifuncional de 10 personas.
-- **Practicante de NetOps y DevOps** — Neustar, Inc. · oct 2021 – dic 2021<br>
+- **Practicante de NetOps y DevOps** — Neustar, Inc. · Oct 2021 – Dic 2021<br>
   Procesé entre 20 y 40 cambios diarios de registros DNS para clientes internacionales, en un equipo de TI multicultural que trabajaba solo en inglés.
 
 ---
@@ -168,20 +168,20 @@ Metodologías →  Scrum (Scrum Master certificado) · Gestión de proyectos
 
 **Educación:**
 
-- Bachillerato en Ingeniería en Sistemas de Información — Universidad Nacional de Costa Rica (UNA) · feb 2022 – may 2027, en curso
-- Diplomado en Programación de Aplicaciones — UNA · feb 2022 – may 2026
-- Técnico en Desarrollo de Software — Colegio Técnico Profesional Mercedes Norte · ene 2019 – dic 2021
+- Bachillerato en Ingeniería en Sistemas de Información — Universidad Nacional de Costa Rica (UNA) · Feb 2022 – May 2028, en curso
+- Diplomado en Programación de Aplicaciones — UNA · Feb 2022 – May 2026
+- Técnico en Desarrollo de Software — Colegio Técnico Profesional Mercedes Norte · Ene 2019 – Dic 2021
 
 ---
 
 **Certificaciones:**
 
-- IBM Z Xplore - Concepts — IBM · jun 2026 · [verificar](https://www.credly.com/badges/6db570cd-0be0-4389-9ab3-b21bf3e44c60/linked_in_profile)
-- Claude Code in Action — Anthropic · abr 2026
-- Claude 101 — Anthropic · abr 2026
-- Scrum Fundamentals Certified (SFC) — SCRUMstudy · mar 2026
-- Scrum with AI Certified (SAC) — SCRUMstudy · mar 2026
-- Digital Marketing Fundamentals (SCDM-F) — SCRUMstudy · mar 2026
+- IBM Z Xplore - Concepts — IBM · Jun 2026 · [verificar](https://www.credly.com/badges/6db570cd-0be0-4389-9ab3-b21bf3e44c60/linked_in_profile)
+- Claude Code in Action — Anthropic · Abr 2026
+- Claude 101 — Anthropic · Abr 2026
+- Scrum Fundamentals Certified (SFC) — SCRUMstudy · Mar 2026
+- Scrum with AI Certified (SAC) — SCRUMstudy · Mar 2026
+- Digital Marketing Fundamentals (SCDM-F) — SCRUMstudy · Mar 2026
 
 ---
 

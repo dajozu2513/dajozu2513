@@ -228,14 +228,13 @@ export const content = {
       },
     ],
     // Degree names are the English names given in the spec. REVIEW: periods and statuses.
+    // The planned Licenciatura is left out at Joel's request.
     education: [
       {
         institution: 'Universidad Nacional de Costa Rica (UNA)',
         degrees: [
-          { name: "Bachelor's Degree, Information Systems Engineering", period: 'Feb 2022 – May 2027', status: 'In progress' },
+          { name: "Bachelor's Degree, Information Systems Engineering", period: 'Feb 2022 – May 2028', status: 'In progress' },
           { name: "Associate's Degree, Application Programming", period: 'Feb 2022 – May 2026' },
-          // REVIEW: spec gives "Licenciatura: planeada, fechas por definir" with no English name.
-          { name: 'Licenciatura', status: 'Planned, dates to be defined' },
         ],
       },
       {
@@ -372,7 +371,7 @@ export const content = {
         // REVIEW: role, highlights and skills translated from the English spec text.
         role: 'Agente de cobros',
         org: 'Bill Gosling Outsourcing',
-        period: 'sep 2026 – oct 2026',
+        period: 'Sep 2026 – Oct 2026',
         type: 'Tiempo completo, presencial',
         location: 'Belén, Heredia',
         highlights: [
@@ -386,7 +385,7 @@ export const content = {
         // REVIEW: role, highlights and skills translated from the English spec text.
         role: 'Desarrollador Full-Stack y Scrum Master',
         org: 'Ministerio de Salud de Costa Rica',
-        period: 'feb 2025 – jun 2026',
+        period: 'Feb 2025 – Jun 2026',
         type: 'Contrato de formación',
         location: 'Heredia',
         highlights: [
@@ -407,7 +406,7 @@ export const content = {
         // REVIEW: role, highlights and skills translated from the English spec text.
         role: 'Practicante de NetOps y DevOps',
         org: 'Neustar, Inc.',
-        period: 'oct 2021 – dic 2021',
+        period: 'Oct 2021 – Dic 2021',
         type: 'Pasantía',
         location: 'Heredia',
         highlights: [
@@ -533,28 +532,27 @@ export const content = {
       {
         institution: 'Universidad Nacional de Costa Rica (UNA)',
         degrees: [
-          { name: 'Bachillerato en Ingeniería en Sistemas de Información', period: 'feb 2022 – may 2027', status: 'En curso' },
-          { name: 'Diplomado en Programación de Aplicaciones', period: 'feb 2022 – may 2026' },
-          { name: 'Licenciatura', status: 'Planeada, fechas por definir' },
+          { name: 'Bachillerato en Ingeniería en Sistemas de Información', period: 'Feb 2022 – May 2028', status: 'En curso' },
+          { name: 'Diplomado en Programación de Aplicaciones', period: 'Feb 2022 – May 2026' },
         ],
       },
       {
         institution: 'Colegio Técnico Profesional Mercedes Norte',
-        degrees: [{ name: 'Técnico en Desarrollo de Software', period: 'ene 2019 – dic 2021' }],
+        degrees: [{ name: 'Técnico en Desarrollo de Software', period: 'Ene 2019 – Dic 2021' }],
       },
     ],
     certifications: [
       {
         name: 'IBM Z Xplore - Concepts',
         issuer: 'IBM',
-        date: 'jun 2026',
+        date: 'Jun 2026',
         url: 'https://www.credly.com/badges/6db570cd-0be0-4389-9ab3-b21bf3e44c60/linked_in_profile',
       },
-      { name: 'Claude Code in Action', issuer: 'Anthropic', date: 'abr 2026', id: 'pwhbtgzpkt4k' },
-      { name: 'Claude 101', issuer: 'Anthropic', date: 'abr 2026', id: 'imwfy7mvmo8x' },
-      { name: 'Scrum Fundamentals Certified (SFC)', issuer: 'SCRUMstudy', date: 'mar 2026', id: '1151993' },
-      { name: 'Scrum with AI Certified (SAC)', issuer: 'SCRUMstudy', date: 'mar 2026', id: '1152540' },
-      { name: 'Digital Marketing Fundamentals (SCDM-F)', issuer: 'SCRUMstudy', date: 'mar 2026', id: '1153530' },
+      { name: 'Claude Code in Action', issuer: 'Anthropic', date: 'Abr 2026', id: 'pwhbtgzpkt4k' },
+      { name: 'Claude 101', issuer: 'Anthropic', date: 'Abr 2026', id: 'imwfy7mvmo8x' },
+      { name: 'Scrum Fundamentals Certified (SFC)', issuer: 'SCRUMstudy', date: 'Mar 2026', id: '1151993' },
+      { name: 'Scrum with AI Certified (SAC)', issuer: 'SCRUMstudy', date: 'Mar 2026', id: '1152540' },
+      { name: 'Digital Marketing Fundamentals (SCDM-F)', issuer: 'SCRUMstudy', date: 'Mar 2026', id: '1153530' },
     ],
     // As written in the spec's "Idiomas y actividades" part.
     beyond: {
