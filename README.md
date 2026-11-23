@@ -30,8 +30,19 @@ Heredia, Costa Rica · Open to work: on-site, hybrid, or remote · [View my port
 
 ---
 
+**Education:**
+
+- Bachelor's Degree, Information Systems Engineering — Universidad Nacional de Costa Rica (UNA) · Feb 2022 – May 2028, in progress
+- Associate's Degree, Application Programming — UNA · Feb 2022 – May 2026
+- Technical Degree, Software Development — Colegio Técnico Profesional Mercedes Norte · Jan 2019 – Dec 2021
+- High School Diploma — Colegio Técnico Profesional Mercedes Norte · Dec 2021
+
+---
+
 **Experience:**
 
+- **Seasonal Sales Associate – Toy Department** — Grupo Aliss · Nov 2026 – Present<br>
+  Provide customer service and product guidance in the toy department during the holiday peak season.
 - **Collections Agent** — Bill Gosling Outsourcing · Sep 2026 – Oct 2026<br>
   Communicated daily in English with customers of a U.S.-based lending client, negotiating payment arrangements.
 - **Full-Stack Developer & Scrum Master** — Ministerio de Salud de Costa Rica · Feb 2025 – Jun 2026<br>
@@ -54,6 +65,19 @@ Heredia, Costa Rica · Open to work: on-site, hybrid, or remote · [View my port
 
 ---
 
+**Outside of code:**
+
+-  Volunteer at Gatos de la UNA — animal rescue, adoptions, food drives, and fundraising marketing
+-  Freelance English tutor — high school students, university classmates, and adults
+-  Former member of the UNA cheerleading team (2022 – 2024)
+-  Passionate about series, films, and animation
+-  Gamer and music lover
+-  Into illustrated books
+-  Fascinated by psychology — especially suggestion and influence
+-  Cat lover — cats are simply the best
+
+---
+
 **What I work with:**
 
 ```
@@ -70,14 +94,6 @@ Methods     →  Scrum (certified Scrum Master) · Project management
 
 ---
 
-**Education:**
-
-- Bachelor's Degree, Information Systems Engineering — Universidad Nacional de Costa Rica (UNA) · Feb 2022 – May 2028, in progress
-- Associate's Degree, Application Programming — UNA · Feb 2022 – May 2026
-- Technical Degree, Software Development — Colegio Técnico Profesional Mercedes Norte · Jan 2019 – Dec 2021
-
----
-
 **Certifications:**
 
 - IBM Z Xplore - Concepts — IBM · Jun 2026 · [verify](https://www.credly.com/badges/6db570cd-0be0-4389-9ab3-b21bf3e44c60/linked_in_profile)
@@ -90,19 +106,6 @@ Methods     →  Scrum (certified Scrum Master) · Project management
 ---
 
 **Languages:** Spanish (native) · English (advanced, C1)
-
----
-
-**Outside of code:**
-
--  Volunteer at Gatos de la UNA — animal rescue, adoptions, food drives, and fundraising marketing
--  Freelance English tutor — high school students, university classmates, and adults
--  Former member of the UNA cheerleading team (2022 – 2024)
--  Passionate about series, films, and animation
--  Gamer and music lover
--  Into illustrated books
--  Fascinated by psychology — especially suggestion and influence
--  Cat lover — cats are simply the best
 
 </details>
 
@@ -126,8 +129,19 @@ Heredia, Costa Rica · Disponible para trabajar: presencial, híbrido o remoto �
 
 ---
 
+**Educación:**
+
+- Bachillerato en Ingeniería en Sistemas de Información — Universidad Nacional de Costa Rica (UNA) · Feb 2022 – May 2028, en curso
+- Diplomado en Programación de Aplicaciones — UNA · Feb 2022 – May 2026
+- Técnico en Desarrollo de Software — Colegio Técnico Profesional Mercedes Norte · Ene 2019 – Dic 2021
+- Bachiller en Educación Media — Colegio Técnico Profesional Mercedes Norte · Dic 2021
+
+---
+
 **Experiencia:**
 
+- **Vendedor de Temporada – Departamento de Juguetería** — Grupo Aliss · Nov 2026 – Actualidad<br>
+  Atiendo y asesoro a clientes en el departamento de juguetería durante la temporada alta navideña.
 - **Agente de cobros** — Bill Gosling Outsourcing · Sep 2026 – Oct 2026<br>
   Me comuniqué a diario en inglés con clientes de una empresa de préstamos de Estados Unidos, negociando acuerdos de pago.
 - **Desarrollador Full-Stack y Scrum Master** — Ministerio de Salud de Costa Rica · Feb 2025 – Jun 2026<br>
@@ -150,6 +164,19 @@ Heredia, Costa Rica · Disponible para trabajar: presencial, híbrido o remoto �
 
 ---
 
+**Fuera del código:**
+
+-  Voluntario en Gatos de la UNA — rescate animal, adopciones, campañas de alimento y marketing de recaudación
+-  Tutor independiente de inglés — estudiantes de secundaria, compañeros universitarios y adultos
+-  Exintegrante del equipo de porrismo de la UNA (2022 – 2024)
+-  Apasionado de las series, películas y la animación
+-  Gamer y amante de la música
+-  Fan de los libros ilustrados
+-  Fascinado por la psicología, especialmente temas de sugestión e influencia
+-  Cat lover — los gatos son lo mejor que existe
+
+---
+
 **Con qué trabajo:**
 
 ```
@@ -166,14 +193,6 @@ Metodologías →  Scrum (Scrum Master certificado) · Gestión de proyectos
 
 ---
 
-**Educación:**
-
-- Bachillerato en Ingeniería en Sistemas de Información — Universidad Nacional de Costa Rica (UNA) · Feb 2022 – May 2028, en curso
-- Diplomado en Programación de Aplicaciones — UNA · Feb 2022 – May 2026
-- Técnico en Desarrollo de Software — Colegio Técnico Profesional Mercedes Norte · Ene 2019 – Dic 2021
-
----
-
 **Certificaciones:**
 
 - IBM Z Xplore - Concepts — IBM · Jun 2026 · [verificar](https://www.credly.com/badges/6db570cd-0be0-4389-9ab3-b21bf3e44c60/linked_in_profile)
@@ -186,18 +205,5 @@ Metodologías →  Scrum (Scrum Master certificado) · Gestión de proyectos
 ---
 
 **Idiomas:** Español (nativo) · Inglés (avanzado, C1)
-
----
-
-**Fuera del código:**
-
--  Voluntario en Gatos de la UNA — rescate animal, adopciones, campañas de alimento y marketing de recaudación
--  Tutor independiente de inglés — estudiantes de secundaria, compañeros universitarios y adultos
--  Exintegrante del equipo de porrismo de la UNA (2022 – 2024)
--  Apasionado de las series, películas y la animación
--  Gamer y amante de la música
--  Fan de los libros ilustrados
--  Fascinado por la psicología, especialmente temas de sugestión e influencia
--  Cat lover — los gatos son lo mejor que existe
 
 </details>

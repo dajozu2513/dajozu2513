@@ -235,7 +235,7 @@ export const content = {
           'Negotiation',
           'Customer service',
           'Regulatory compliance',
-          'Bilingual communication',
+          'Bilingual communication (Spanish and English)',
           'Coordination between technical and non-technical teams',
         ],
       },
@@ -252,7 +252,12 @@ export const content = {
       },
       {
         institution: 'Colegio Técnico Profesional Mercedes Norte',
-        degrees: [{ name: 'Technical Degree, Software Development', period: 'Jan 2019 – Dec 2021' }],
+        degrees: [
+          { name: 'Technical Degree, Software Development', period: 'Jan 2019 – Dec 2021' },
+          // From Joel's diploma: "Bachiller en Educación Media". Dated Dec 2021, the end of
+          // his studies, at Joel's request (the diploma itself was issued in January 2022).
+          { name: 'High School Diploma', period: 'Dec 2021' },
+        ],
       },
     ],
     // Issuer, date and credential ID from the spec. IBM Z Xplore has no credential ID;
@@ -549,7 +554,7 @@ export const content = {
           'Negociación',
           'servicio al cliente',
           'cumplimiento regulatorio',
-          'comunicación bilingüe',
+          'comunicación bilingüe (español e inglés)',
           'coordinación entre equipos técnicos y no técnicos',
         ],
       },
@@ -565,7 +570,10 @@ export const content = {
       },
       {
         institution: 'Colegio Técnico Profesional Mercedes Norte',
-        degrees: [{ name: 'Técnico en Desarrollo de Software', period: 'Ene 2019 – Dic 2021' }],
+        degrees: [
+          { name: 'Técnico en Desarrollo de Software', period: 'Ene 2019 – Dic 2021' },
+          { name: 'Bachiller en Educación Media', period: 'Dic 2021' },
+        ],
       },
     ],
     certifications: [
