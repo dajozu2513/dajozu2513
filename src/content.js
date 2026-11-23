@@ -60,11 +60,24 @@ export const content = {
     },
     experience: [
       {
+        role: 'Seasonal Sales Associate – Toy Department',
+        org: 'Grupo Aliss',
+        period: 'Nov 2026 – Present',
+        type: 'Temporary contract, on-site',
+        location: 'Ulloa, Heredia',
+        highlights: [
+          'Provide customer service and product guidance in the toy department during the holiday peak season.',
+          'Manage stockroom operations, inventory control, and product labeling.',
+          'Maintain visual merchandising standards to keep the sales floor organized and presentable.',
+        ],
+        skills: ['Customer Service', 'Inventory Management', 'Visual Merchandising', 'Teamwork'],
+      },
+      {
         role: 'Collections Agent',
         org: 'Bill Gosling Outsourcing',
         period: 'Sep 2026 – Oct 2026',
-        // REVIEW: spec gives "Tiempo completo, presencial".
-        type: 'Full-time, on-site',
+        // Contract type as on Joel's LinkedIn ("Contrato temporal").
+        type: 'Temporary contract, on-site',
         location: 'Belén, Heredia',
         highlights: [
           'Communicated daily in English with customers of a U.S.-based lending client, negotiating payment arrangements.',
@@ -77,8 +90,8 @@ export const content = {
         role: 'Full-Stack Developer & Scrum Master',
         org: 'Ministerio de Salud de Costa Rica',
         period: 'Feb 2025 – Jun 2026',
-        // REVIEW: spec gives "Contrato de formación".
-        type: 'Apprenticeship',
+        // Contract type as on Joel's LinkedIn ("Contrato de formación").
+        type: 'Apprenticeship contract',
         location: 'Heredia',
         highlights: [
           'Co-developed a Ministry-wide web application (React, C# .NET, Oracle) that automated a business process spread across documents, spreadsheets, and email into one traceable workflow for thousands of proposals.',
@@ -98,8 +111,8 @@ export const content = {
         role: 'NetOps & DevOps Intern',
         org: 'Neustar, Inc.',
         period: 'Oct 2021 – Dec 2021',
-        // REVIEW: spec gives "Pasantía".
-        type: 'Internship',
+        // Contract type as on Joel's LinkedIn ("Contrato de prácticas").
+        type: 'Internship contract',
         location: 'Heredia',
         highlights: [
           'Processed 20-40 DNS record changes daily for international clients in a multicultural, English-only IT team.',
@@ -368,11 +381,25 @@ export const content = {
     },
     experience: [
       {
+        // Text provided by Joel; skills translated like the other Spanish entries.
+        role: 'Vendedor de Temporada – Departamento de Juguetería',
+        org: 'Grupo Aliss',
+        period: 'Nov 2026 – Actualidad',
+        type: 'Contrato temporal, presencial',
+        location: 'Ulloa, Heredia',
+        highlights: [
+          'Atiendo y asesoro a clientes en el departamento de juguetería durante la temporada alta navideña.',
+          'Gestiono la bodega, el control de inventario y el etiquetado de productos.',
+          'Mantengo los estándares de exhibición para que el piso de ventas se vea ordenado y presentable.',
+        ],
+        skills: ['Servicio al cliente', 'Gestión de inventario', 'Exhibición comercial', 'Trabajo en equipo'],
+      },
+      {
         // REVIEW: role, highlights and skills translated from the English spec text.
         role: 'Agente de cobros',
         org: 'Bill Gosling Outsourcing',
         period: 'Sep 2026 – Oct 2026',
-        type: 'Tiempo completo, presencial',
+        type: 'Contrato temporal, presencial',
         location: 'Belén, Heredia',
         highlights: [
           'Me comuniqué a diario en inglés con clientes de una empresa de préstamos de Estados Unidos, negociando acuerdos de pago.',
@@ -407,7 +434,7 @@ export const content = {
         role: 'Practicante de NetOps y DevOps',
         org: 'Neustar, Inc.',
         period: 'Oct 2021 – Dic 2021',
-        type: 'Pasantía',
+        type: 'Contrato de prácticas',
         location: 'Heredia',
         highlights: [
           'Procesé entre 20 y 40 cambios diarios de registros DNS para clientes internacionales, en un equipo de TI multicultural que trabajaba solo en inglés.',
